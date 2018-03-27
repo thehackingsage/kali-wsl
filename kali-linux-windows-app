@@ -1,0 +1,55 @@
+#!/bin/bash
+
+BLACK='\e[30m'
+RED='\e[31m'
+GREEN='\e[32m'
+YELLOW='\e[33m'
+BLUE='\e[34m'
+PURPLE='\e[35m'
+CYAN='\e[36m'
+WHITE='\e[37m'
+NC='\e[0m'
+
+echo " "
+echo -e "${CYAN} ██╗  ██╗ █████╗ ██╗     ██╗    ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗ "
+echo " ██║ ██╔╝██╔══██╗██║     ██║    ██║     ██║████╗  ██║██║   ██║╚██╗██╔╝ "
+echo " █████╔╝ ███████║██║     ██║    ██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝  "
+echo " ██╔═██╗ ██╔══██║██║     ██║    ██║     ██║██║╚██╗██║██║   ██║ ██╔██╗  "
+echo " ██║  ██╗██║  ██║███████╗██║    ███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗ "
+echo " ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ "
+echo "                                                                       "
+echo -e "${NC}"
+echo -e "${RED} Kali Linux Windows App - Update & Pentesting Tools for CLI by ${GREEN}Mr. SAGE${NC}"
+echo ""
+echo "----------------------------------------------------------------------"
+echo ""
+echo -e "${CYAN}[>] Press ENTER for Second Stage, CTRL+C to Abort.${NC}"
+read INPUT
+echo ""
+
+#update
+
+apt-get update
+apt-get update --fix-missing
+apt-get --yes --force-yes install locales-all mlocate sudo
+#apt-get --yes --force-yes install kali-desktop-xfce xorg xrdp
+rm -rf /root/.bash_history
+apt-get clean
+apt-get autoremove
+echo -e "${RED}System Updated !!!.${NC}"
+
+rm -f /0
+rm -f /hs_err*
+rm -f /cleanup
+rm -f /usr/bin/qemu*
+
+updatedb
+echo -e "${RED}Database Updated !!!.${NC}"
+
+#pentestingtoolforcli
+
+git clone https://github.com/thehackingsage/hacktronian.git
+cd hacktronian
+chmod +x install.sh
+./install.sh
+echo -e "${RED}Hacktronian Successfully Installed !!!.${NC}"
