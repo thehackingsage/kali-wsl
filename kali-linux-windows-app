@@ -19,10 +19,11 @@ echo " ██║  ██╗██║  ██║███████╗██║
 echo " ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ "
 echo "                                                                       "
 echo -e "${NC}"
-echo -e "${RED} Kali Linux Windows App - Update & Pentesting Tools for CLI by ${GREEN}Mr. SAGE${NC}"
+echo -e "${BLUE} Kali Linux Windows App - Update & Pentesting Tools for CLI by ${GREEN}Mr. SAGE${NC}"
 echo ""
 echo "----------------------------------------------------------------------"
 echo ""
+echo -e "${RED}[!] This Tool Must Run As ROOT [!]${NC}"
 echo -e "${CYAN}[>] Press ENTER for Second Stage, CTRL+C to Abort.${NC}"
 read INPUT
 echo ""
