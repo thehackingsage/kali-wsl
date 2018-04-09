@@ -32,6 +32,7 @@ echo ""
 
 apt-get update
 apt-get update --fix-missing
+#apt-get upgrade
 apt-get --yes --force-yes install locales-all mlocate sudo
 #apt-get --yes --force-yes install kali-desktop-xfce xorg xrdp
 rm -rf /root/.bash_history
