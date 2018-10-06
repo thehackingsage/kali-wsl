@@ -20,7 +20,7 @@ echo "         \/    \/                  \/       \/            \/ "
 echo -e "${NC}"
 echo -e "${BLUE} Update, Upgrade, GUI Mode & Hacking Tool by ${GREEN}Mr. SAGE${NC}"
 echo ""
-echo "----------------------------------------------------------------------"
+echo "--------------------------------------------------------------"
 echo ""
 echo -e "${CYAN}[>] Press ENTER to Install, CTRL+C to Abort.${NC}"
 read INPUT
