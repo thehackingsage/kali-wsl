@@ -10,20 +10,10 @@ CYAN='\e[36m'
 WHITE='\e[37m'
 NC='\e[0m'
 
-echo " "
-echo -e "${CYAN} ██╗  ██╗ █████╗ ██╗     ██╗    ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗ "
-echo " ██║ ██╔╝██╔══██╗██║     ██║    ██║     ██║████╗  ██║██║   ██║╚██╗██╔╝ "
-echo " █████╔╝ ███████║██║     ██║    ██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝  "
-echo " ██╔═██╗ ██╔══██║██║     ██║    ██║     ██║██║╚██╗██║██║   ██║ ██╔██╗  "
-echo " ██║  ██╗██║  ██║███████╗██║    ███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗ "
-echo " ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ "
-echo "                                                                       "
-echo -e "${NC}"
-echo -e "${BLUE} Update, Upgrade, XFCE4 - GUI Mode & Hacking Tool by ${GREEN}Mr. SAGE${NC}"
+echo -e "${BLUE} Kali Linux Update, Upgrade, XFCE4 - GUI Mode & Hacking Tool by ${GREEN}Mr. SAGE${NC}"
 echo ""
 echo "----------------------------------------------------------------------"
 echo ""
-echo -e "${RED}[!] This Tool Must Run As ROOT [!]${NC}"
 echo -e "${CYAN}[>] Press ENTER to Install, CTRL+C to Abort.${NC}"
 read INPUT
 echo ""
@@ -90,7 +80,7 @@ echo -e "\e[92m[*]\e[96m You can start WSL Kali-X via:\e[0m"
 echo "    ~/start-xfce            #(as normal user)"
 echo "    sudo /root/start-xfce   #(as root user)"
 
-# Pentesting Tool
+# Hacking Tool
 
 wget https://raw.githubusercontent.com/thehackingsage/hacktronian/master/install.sh
 sudo bash ./install.sh
