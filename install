@@ -19,7 +19,7 @@ echo " ██║  ██╗██║  ██║███████╗██║
 echo " ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ "
 echo "                                                                       "
 echo -e "${NC}"
-echo -e "${BLUE} Kali Linux Windows App - GUI Mode & Pentesting Tools for CLI by ${GREEN}Mr. SAGE${NC}"
+echo -e "${BLUE} Update, Upgrade, XFCE4 - GUI Mode & Hacking Tool by ${GREEN}Mr. SAGE${NC}"
 echo ""
 echo "----------------------------------------------------------------------"
 echo ""
