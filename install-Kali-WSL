@@ -9,7 +9,6 @@ PURPLE='\e[35m'
 CYAN='\e[36m'
 WHITE='\e[37m'
 NC='\e[0m'
-
 echo " "
 echo -e "${CYAN} ____  __.      .__  .__  .____    .__  "
 echo " |    |/ _|____  |  | |__| |    |   |__| ____  __ _____  ___ "
@@ -25,9 +24,8 @@ echo ""
 echo -e "${CYAN}[>] Press ENTER to Install, CTRL+C to Abort.${NC}"
 read INPUT
 echo ""
-
 # Update & Upgrade
-
+echo ""
 echo -e "\e[92m[+]\e[96m Updating & Upgrading Kali Linux\e[0m"
 sudo apt-get update
 sudo apt-get update --fix-missing
@@ -44,9 +42,9 @@ sudo rm -f /cleanup
 sudo rm -f /usr/bin/qemu*
 updatedb
 echo -e "${RED}Database Updated !!!.${NC}"
-
+echo ""
 # Installing XFCE4
-
+echo ""
 echo -e "\e[92m[+]\e[96m Installing XFCE4, this will take a while\e[0m"
 sudo apt install -y kali-desktop-xfce xorg xrdp compton
 echo -e "\e[92m[+]\e[96m Configuring XRDP to listen on port 3390 (but not starting the service)...\e[0m"
@@ -78,19 +76,24 @@ sudo wget --no-hsts -O /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.x
 sudo mkdir /etc/xdg/disabled-autostart
 sudo mv /etc/xdg/autostart/nm-applet.desktop /etc/xdg/autostart/disabled-autostart/
 echo
+echo -e "${RED}XFCE4 Successfully Installed !!!.${NC}"
+echo ""
+# Hacking Tool
+echo ""
+echo -e "\e[92m[+]\e[96m Installing Hacktronian..[0m"
+wget https://raw.githubusercontent.com/thehackingsage/hacktronian/master/install.sh
+sudo bash ./install.sh
+echo -e "${RED}Hacktronian Successfully Installed !!!.${NC}"
+clear
+echo -e "\e[92m[*]\e[96m Installation Complete. \e[92mOnly One More Thing To Do:\e[0m"
 echo
-echo -e "\e[92m[*]\e[96m This part of the installation is completed. \e[92mOnly one more thing to do:\e[0m"
-echo
-echo -e "\e[92m[*]\e[96m Please download and install VcXsrv X Server from here:\e[0m"
+echo -e "\e[92m[*]\e[96m Please Download and Install VcXsrv X Server From Here:\e[0m"
 echo "    https://sourceforge.net/projects/vcxsrv/files/vcxsrv/1.19.6.0/"
-echo
 echo
 echo -e "\e[92m[*]\e[96m You can start WSL Kali-X via:\e[0m"
 echo "    ~/start-xfce            #(as normal user)"
 echo "    sudo /root/start-xfce   #(as root user)"
+echo
+echo -e "\e[92m[*]\e[96m You Can Start Hacktronian by Typing :\e[0m hacktronian"
+echo ""
 
-# Hacking Tool
-
-wget https://raw.githubusercontent.com/thehackingsage/hacktronian/master/install.sh
-sudo bash ./install.sh
-echo -e "${RED}Hacktronian Successfully Installed !!!.${NC}"
