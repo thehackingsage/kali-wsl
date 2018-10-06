@@ -10,7 +10,15 @@ CYAN='\e[36m'
 WHITE='\e[37m'
 NC='\e[0m'
 
-echo -e "${BLUE} Kali Linux Update, Upgrade, XFCE4 - GUI Mode & Hacking Tool by ${GREEN}Mr. SAGE${NC}"
+echo " "
+echo -e "${CYAN} ____  __.      .__  .__  .____    .__  "
+echo " |    |/ _|____  |  | |__| |    |   |__| ____  __ _____  ___ "
+echo " |      < \__  \ |  | |  | |    |   |  |/    \|  |  \  \/  / "
+echo " |    |  \ / __ \|  |_|  | |    |___|  |   |  \  |  />    <  "
+echo " |____|__ (____  /____/__| |_______ \__|___|  /____//__/\_ \ "
+echo "         \/    \/                  \/       \/            \/ "
+echo -e "${NC}"
+echo -e "${BLUE} Update, Upgrade, GUI Mode & Hacking Tool by ${GREEN}Mr. SAGE${NC}"
 echo ""
 echo "----------------------------------------------------------------------"
 echo ""
