@@ -90,10 +90,14 @@ echo
 echo -e "\e[92m[*]\e[96m Please Download and Install VcXsrv X Server From Here:\e[0m"
 echo "    https://sourceforge.net/projects/vcxsrv/files/vcxsrv/1.19.6.0/"
 echo
-echo -e "\e[92m[*]\e[96m You can start WSL Kali-X via:\e[0m"
+echo -e "\e[92m[*]\e[96m You Can Start GUI Mode via :\e[0m"
 echo "    ~/start-xfce            #(as normal user)"
 echo "    sudo /root/start-xfce   #(as root user)"
 echo
-echo -e "\e[92m[*]\e[96m You Can Start Hacktronian by Typing :\e[0m hacktronian"
+echo -e "\e[92m[*]\e[96m You Can Start Hacktronian via :\e[0m hacktronian"
 echo ""
-
+echo -e "\e[92m[*]\e[96m Don't Forget To Follow Me on :\e[0m"
+echo "    GitHub     :  https://GitHub.com/thehackingsage"
+echo "    Twitter    :  https://twitter.com/thehackingsage"
+echo "    Instagram  :  https://instagram.com/thehackingsage"
+echo ""
