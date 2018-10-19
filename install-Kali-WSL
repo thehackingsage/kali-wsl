@@ -25,7 +25,6 @@ echo -e "${CYAN}[>] Press ENTER to Install, CTRL+C to Abort.${NC}"
 read INPUT
 echo ""
 # Update & Upgrade
-echo ""
 echo -e "\e[92m[+]\e[96m Updating & Upgrading Kali Linux\e[0m"
 sudo apt-get update
 sudo apt-get update --fix-missing
@@ -36,12 +35,6 @@ sudo rm -rf /root/.bash_history
 sudo apt-get clean
 sudo apt-get autoremove
 echo -e "${RED}System Updated !!!.${NC}"
-sudo rm -f /0
-sudo rm -f /hs_err*
-sudo rm -f /cleanup
-sudo rm -f /usr/bin/qemu*
-updatedb
-echo -e "${RED}Database Updated !!!.${NC}"
 echo ""
 # Installing XFCE4
 echo ""
@@ -86,16 +79,22 @@ wget https://raw.githubusercontent.com/thehackingsage/hacktronian/master/install
 sudo bash ./install.sh
 echo -e "${RED}Hacktronian Successfully Installed !!!.${NC}"
 clear
-echo -e "\e[92m[*]\e[96m Installation Complete. \e[92mOnly One More Thing To Do:\e[0m"
+echo -e "\e[92m[*]\e[96m Installation Complete, \e[92mOnly One More Thing To Do..\e[0m"
 echo
 echo -e "\e[92m[*]\e[96m Please Download and Install VcXsrv X Server From Here:\e[0m"
+echo
 echo "    https://sourceforge.net/projects/vcxsrv/files/vcxsrv/1.19.6.0/"
+echo
+echo -e "\e[92m[>]\e[96m then Start VcXsrv, Accept Change in Firewall Rules, Exit VcXsrv\e[0m"
+echo
+echo -e "\e[92m[>]\e[96m After That Start Kali Linux in Windows.\e[0m"
 echo
 echo -e "\e[92m[*]\e[96m You Can Start GUI Mode via :\e[0m startx"
 echo
 echo -e "\e[92m[*]\e[96m You Can Start Hacktronian via :\e[0m hacktronian"
-echo ""
+echo
 echo -e "\e[92m[*]\e[96m Don't Forget To Follow Me on :\e[0m"
+echo
 echo "    GitHub     :  https://gitHub.com/thehackingsage"
 echo "    Twitter    :  https://twitter.com/thehackingsage"
 echo "    Instagram  :  https://instagram.com/thehackingsage"
