@@ -16,9 +16,11 @@ Open Kali Linux App and Run..
 
 ## How To Start GUI Mode? :
 
-as normal user : ```~/start-xfce```
+as normal user : ```~/startx```
 
-as root : ```sudo /root/xtart-xfce```
+as root : ```sudo /root/startx```
+
+#### or you can also start GUI Mode by typing : ```startx```
 
 You can also Run Kali Desktop in a RDP Session 
 
