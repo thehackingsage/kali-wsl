@@ -14,6 +14,12 @@ Open Kali Linux App and Run..
 
 :pushpin: This Installation Process Will Take Some Time.
 
+Download and install VcXsrv X Server on Windows : [vcxsrv v1.19.6.0.exe](https://sourceforge.net/projects/vcxsrv/files/vcxsrv/1.19.6.0/)
+
+:pushpin: Don’t Use Any Other Version.
+
+After That, Start VcXsrv, Accept Change in Firewall Rules Then Exit VcXsrv..
+
 ## How To Start GUI Mode? :
 
 as normal user : ```~/startx```
