@@ -6,7 +6,13 @@ After Enabling WSL and Installing Kali Linux App from the Microsoft Store in Win
 
 Open Kali Linux App and Run..
 
-```wget https://raw.githubusercontent.com/thehackingsage/Kali-WSL/master/install-Kali-WSL```
+```sudo apt-get update```
+
+```sudo apt-get install git```
+
+```git clone https://github.com/thehackingsage/Kali-WSL```
+
+```cd Kali-WSL```
 
 ```chmod +x install-Kali-WSL```
 
