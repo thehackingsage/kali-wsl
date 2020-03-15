@@ -27,8 +27,8 @@ echo ""
 # Update & Upgrade
 echo -e "\e[92m[+]\e[96m Updating & Upgrading Kali Linux\e[0m"
 sudo apt-get update
-sudo apt-get update --fix-missing
-sudo apt-get full-upgrade -y
+sudo apt-get -y upgrade
+#sudo apt-get update --fix-missing
 #sudo apt-get install kali-linux-full -y 
 sudo apt-get --yes --force-yes install locales-all mlocate sudo
 sudo rm -rf /root/.bash_history
