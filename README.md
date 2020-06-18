@@ -14,9 +14,9 @@ Open Kali Linux App and Run..
 
 ```cd Kali-WSL```
 
-```chmod +x install-Kali-WSL```
+```chmod +x install.sh```
 
-```./install-Kali-WSL```
+```./install.sh```
 
 :pushpin: This Installation Process Will Take Some Time.
 
